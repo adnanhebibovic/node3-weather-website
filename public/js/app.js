@@ -9,7 +9,7 @@ form.addEventListener('submit', (e) => {
     icon.src = ''
     result.textContent = ''
 
-    fetch('http://localhost:3000/weather?city=' + search.value).then((response) => {
+    fetch('/weather?city=' + search.value).then((response) => {
         response.json().then((data) => {
             if (data.error)
             {
