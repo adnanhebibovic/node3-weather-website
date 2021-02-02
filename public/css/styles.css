@@ -7,7 +7,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 50%;
 }
 
 .main-content {
@@ -38,5 +38,5 @@ header a {
 }
 
 .portrait {
-    width: 250px;
+    width: 200px;
 }
