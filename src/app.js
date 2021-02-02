@@ -22,7 +22,7 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'Weather',
+        title: 'About',
         author: 'Adnan Hebibovic'
     })
 })
@@ -31,7 +31,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
         author: 'Adnan Hebibovic',
-        text: 'Enter the city and hit enter. There is no more than that!'
+        text: 'Enter the city and hit enter!'
     })
 })
 
